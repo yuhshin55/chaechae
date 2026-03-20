@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CHAEWON♡</title>
+  <style> 
+   .main{color: pink;}
+    h1{color: red;}
+    span{background:yellow;color:pink }
+  </style>
+<!-- 非表示にしたい部分、CSSはstyleの中へ -->
+</head>
+<body>
+<div style="text-align: center;"> 
+   <h2></h2>
+
+  <div id="headline">
+  <h1>チェウォーーーーーーーーーン♡♡♡はーと</h1>
+<img src="C:\Users\veryo\OneDrive\画像\Chaewon♡\chaewon.jpg.jpg" width="900" height="alt="600"/>
+
+  <p>2000.8.1 In Seoul。</p>
+  <div class="main">
+  <h2>Blood type B。</h2>
+  <p>MBTI<span class="light">ISTP</span>입니다</p>
+
+  <p>
+  <a href="https://saruwakakun.com/">ホームへ</a>
+戻ります。</p>
+
+
+
+</div>
+
+</body>
+</html>
+ 
