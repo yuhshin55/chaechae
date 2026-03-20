@@ -61,10 +61,16 @@
       color: red;
     }
 
+    /* 👇ここ追加（これで横並び防ぐ） */
+    .gallery {
+      display: block;
+    }
+
     .gallery img {
+      display: block;       /* ←これ重要🔥 */
       max-width: 600px;
       width: 100%;
-      margin-bottom: 20px;
+      margin: 0 auto 20px;  /* 中央寄せ */
     }
 
     /* 📱 スマホ対応 */
@@ -94,7 +100,7 @@
   <nav class="menu">
     <ul>
       <li><a href="#">HOME</a></li>
-      <li><a href="./Come_over.html">Come over</a></li>
+      <li><a href="Come_over.html">Come over</a></li>
       <li><a href="#">1-800-hot-n-fun</a></li>
     </ul>
   </nav>
@@ -109,15 +115,15 @@
 
     <!-- 画像ギャラリー -->
     <div class="gallery">
-  <img src="image/CRAZY/CRAZY1.jpg" alt="">
-  <img src="image/CRAZY/CRAZY2.jpg" alt="">
-  <img src="image/CRAZY/CRAZY3.jpg" alt="">
-  <img src="image/CRAZY/CRAZY4.jpeg" alt="">
-  <img src="image/CRAZY/CRAZY5.jpeg" alt="">
-  <img src="image/CRAZY/CRAZY6.jpeg" alt="">
-  <img src="image/CRAZY/CRAZY7.jpeg" alt="">
-  <img src="image/CRAZY/CRAZY8.jpeg" alt="">
-　</div>
+      <img src="image/CRAZY/CRAZY1.jpg" alt="">
+      <img src="image/CRAZY/CRAZY2.jpg" alt="">
+      <img src="image/CRAZY/CRAZY3.jpg" alt="">
+      <img src="image/CRAZY/CRAZY4.jpeg" alt="">
+      <img src="image/CRAZY/CRAZY5.jpeg" alt="">
+      <img src="image/CRAZY/CRAZY6.jpeg" alt="">
+      <img src="image/CRAZY/CRAZY7.jpeg" alt="">
+      <img src="image/CRAZY/CRAZY8.jpeg" alt="">
+    </div>
 
     <p>2000.8.1 In Seoul。</p>
 
