@@ -87,6 +87,20 @@ h1 {
 }
 .gallery img { max-width: 600px; width: 100%; margin-bottom: 20px; }
 
+/*Youtube　埋め込みロングチェウォンDance♪*/
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 177.8%; /* 縦動画（9:16）なのでここ重要！ */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
   </style>
 
 </head>
@@ -123,9 +137,14 @@ h1 {
       <img src="image/Come over/Come over13.png" alt="Come over 13">
       <img src="image/Come over/Come over14.png" alt="Come over 14">
       <img src="image/Come over/Come over15.png" alt="Come over 15">
+      </div>
       
+      <!--　ロングチェウォンのダンス動画の埋め込み　-->
+      <div class="video-container">
+  <iframe src="https://www.youtube.com/embed/cau04MTABRc"></iframe>
+</div>
       
-    </div>
+  
 
     <p>2000.8.1 In Seoul。</p>
 
