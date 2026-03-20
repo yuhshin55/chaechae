@@ -66,22 +66,29 @@ h1 {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
 
-  .menu {
-    width: 100%;
-    text-align: center;
-  }
 
-  .menu li {
-    display: inline-block;
-    margin: 0 10px;
-  }
+ /* 📱 スマホ対応 */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .menu {
+        width: 100%;
+        text-align: center;
+      }
+
+      .menu li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+
+    .container {
+  display: flex;
+  min-height: 100vh;
 }
-
   </style>
 
 </head>
@@ -94,7 +101,7 @@ h1 {
   <nav class="menu">
     <ul>
       <li><a href="CRAZY.html">MAIN</a></li>
-      <li><a href="Come over.html">Come over</a></li>
+      <li><a href="./Come_over.html">Come over</a></li>
       <li><a href="#">1-800-hot-n-fun</a></li>
     </ul>
   </nav>
