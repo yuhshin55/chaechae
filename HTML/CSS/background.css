@@ -1,0 +1,5 @@
+body {
+  background-color: rgba(247, 208, 236); /* 既存の色（半透明） */
+  background-image: url("275afb58b7e32ee8d69f00ec00a331a9b52b893d5fe195822a7195858e1f6572a_o_st.jpg");
+  background-blend-mode: overlay;
+}
