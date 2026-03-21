@@ -70,3 +70,25 @@ h1 {
 .Long-chaewon-dance {
   margin: 40px; 
 }
+
+/*背景色*/
+body {
+  margin: 0;
+  background-color: rgba(247, 208, 236, 1); /* 色はそのまま */
+  position: relative;
+}
+
+
+
+/*背景写真設定*/
+body.come-over::before {
+  content: "";
+  position: fixed;/* スクロールしても固定 */
+  inset: 0;
+  background-image: url("../image/CHAEWON/chaewon1.jpg");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  opacity: 0.3;/* ←ここで透明度調整 */
+  z-index: -1;
+}

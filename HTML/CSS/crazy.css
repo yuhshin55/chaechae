@@ -1,0 +1,21 @@
+
+body {
+  margin: 0;
+  background-color: rgba(247, 208, 236, 1); /* 色はそのまま */
+  position: relative;
+}
+
+
+
+
+body.come-over::before {
+  content: "";
+  position: fixed;/* スクロールしても固定 */
+  inset: 0;
+  background-image: url("../image/CHAEWON/chaewon1.jpg");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  opacity: 0.3;/* ←ここで透明度調整 */
+  z-index: -1;
+}
