@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   background-color: rgba(247, 208, 236, 1); /* 色はそのまま */
@@ -14,4 +15,13 @@ body::before {
   background-position: center top;
   opacity: 0.3; /* ←ここで透明度調整 */
   z-index: -1;
+}
+
+.menu {
+  position: fixed;   /* ← 固定 */
+  top: 0;            /* 上にくっつける */
+  left: 0;
+  width: 100%;       /* 横いっぱい */
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;     /* 他より前に出す */
 }

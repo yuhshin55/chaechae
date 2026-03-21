@@ -1,0 +1,8 @@
+.menu {
+  position: fixed;   /* ← 固定 */
+  top: 0;            /* 上にくっつける */
+  left: 0;
+  width: 100%;       /* 横いっぱい */
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;     /* 他より前に出す */
+}
