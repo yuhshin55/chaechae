@@ -35,7 +35,6 @@
 }
 /*これ入れないとメニュー被るらしい*/
 .main {
-  margin-top: 120px; /* ← メニューの高さ分 */
   padding-top: 150px;
 }
 
@@ -54,7 +53,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 40px;
-  margin-top: 50px;
 }
 
 
@@ -158,4 +156,7 @@ body {
   .chaewon p {
   writing-mode: horizontal-tb;
 }
+  .menu ul {
+    flex-wrap: wrap; /* ← これ追加 */
+  }
 }
