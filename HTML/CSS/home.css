@@ -127,7 +127,7 @@ body {
     font-size: 18px;
     top: 8px;
   }
-　/* チェウォン画像横文字対応 */
+/* チェウォン画像横文字対応 */
   .chaewon p {
   writing-mode: horizontal-tb;
 }
