@@ -128,7 +128,9 @@ body {
 
   /* 文字サイズ調整 */
   .card p {
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 0 0 8px black;
     top: 8px;
   }
 /* チェウォン画像横文字対応 */
