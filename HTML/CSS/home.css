@@ -33,10 +33,7 @@
 .menu a:hover {
   color: yellow;
 }
-/*これ入れないとメニュー被るらしい*/
-.main {
-  padding-top: 0px;
-}
+
 
 h1 {
   color: red;
@@ -129,9 +126,8 @@ body {
 
 /* スマホ対応 */
 @media (max-width: 768px) 
-{.main {
-    padding-top: 10%; /* ← ちょい多め */
-  }
+{
+  
   /* 画像を縦並びにする */
   .gallery {
     flex-direction: column;
