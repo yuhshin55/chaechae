@@ -41,7 +41,7 @@ h1 {
 
 body {
   margin: 0;
-  padding-top: 80px;
+  padding-top: 100px;
   font-family: 'Kiwi Maru', serif;
   color: pink;
 }
@@ -157,6 +157,6 @@ body {
   }
 
    body {
-    padding-top: 140px !important; /* ← 強制上書き */
+    padding-top: 160px !important; /* ← 強制上書き */
   }
 }
