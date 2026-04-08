@@ -102,3 +102,33 @@ body {
   height: 100%;
   object-fit: cover; /* ← 超重要！！ */
 }
+
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+
+  /* 画像を縦並びにする */
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    /* 文字を横並びにする */
+    flex-wrap: wrap;
+
+  }
+
+  /* カードサイズ少し小さく */
+  .card {
+    width: 80%;
+    height: auto;
+  }
+
+  /* 文字サイズ調整 */
+  .card p {
+    font-size: 18px;
+    top: 8px;
+  }
+　/* チェウォン画像横文字対応 */
+  .chaewon p {
+  writing-mode: horizontal-tb;
+}
+}
