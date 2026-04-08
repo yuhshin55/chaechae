@@ -105,7 +105,6 @@ body {
 
 
 /* スマホ対応 */
-/* スマホ対応 */
 @media (max-width: 768px) {
 
   /* 画像を縦並びにする */
@@ -121,7 +120,6 @@ body {
   .card {
     width: 80%;
     height: 300px; /* ← チェウォンに合わせる */
-    overflow: hidden;
   }
 
   /* 文字サイズ調整 */
@@ -132,11 +130,5 @@ body {
 /* チェウォン画像横文字対応 */
   .chaewon p {
   writing-mode: horizontal-tb;
-}
-/* 画像をいい感じにトリミング */
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* ← 超重要 */
 }
 }
