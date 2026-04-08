@@ -36,6 +36,7 @@
 /*これ入れないとメニュー被るらしい*/
 .main {
   margin-top: 120px; /* ← メニューの高さ分 */
+  padding-top: 150px;
 }
 
 h1 {
@@ -126,8 +127,10 @@ body {
 
 
 /* スマホ対応 */
-@media (max-width: 768px) {
-
+@media (max-width: 768px) 
+{.main {
+    padding-top: 180px; /* ← ちょい多め */
+  }
   /* 画像を縦並びにする */
   .gallery {
     flex-direction: column;
