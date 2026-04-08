@@ -41,7 +41,7 @@ h1 {
 
 body {
   margin: 0;
-  
+  padding-top: 80px;
   font-family: 'Kiwi Maru', serif;
   color: pink;
 }
@@ -66,10 +66,7 @@ body {
     }
 
 
-body {
-  margin: 0;
-  padding-top: 80px; /* ← ここで調整 */
-}
+
 
 
 /* カード（←1つに統一） */
@@ -127,7 +124,7 @@ body {
 /* スマホ対応 */
 @media (max-width: 768px) 
 {
-  
+
   /* 画像を縦並びにする */
   .gallery {
     flex-direction: column;
@@ -157,5 +154,9 @@ body {
 }
   .menu ul {
     flex-wrap: wrap; /* ← これ追加 */
+  }
+
+   body {
+    padding-top: 140px !important; /* ← 強制上書き */
   }
 }
