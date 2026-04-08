@@ -35,7 +35,7 @@
 }
 /*これ入れないとメニュー被るらしい*/
 .main {
-  padding-top: 120px;
+  padding-top: 0px;
 }
 
 h1 {
@@ -69,7 +69,10 @@ body {
     }
 
 
-
+body {
+  margin: 0;
+  padding-top: 80px; /* ← ここで調整 */
+}
 
 
 /* カード（←1つに統一） */
@@ -127,7 +130,7 @@ body {
 /* スマホ対応 */
 @media (max-width: 768px) 
 {.main {
-    padding-top: 120px; /* ← ちょい多め */
+    padding-top: 10%; /* ← ちょい多め */
   }
   /* 画像を縦並びにする */
   .gallery {
