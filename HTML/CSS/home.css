@@ -128,10 +128,11 @@ body {
 
   /* 文字サイズ調整 */
   .card p {
-    font-size: 25px;
+    
     font-weight: bold;
     text-shadow: 0 0 8px black;
-    top: 8px;
+    font-size: 28px !important; /* ← これ追加 */
+    top: 12px;
   }
 /* チェウォン画像横文字対応 */
   .chaewon p {
