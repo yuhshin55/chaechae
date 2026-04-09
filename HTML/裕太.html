@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>小関裕太</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+
+
+<!--CSS設定-->
+
+ <style>
+/* 左メニュー */
+
+
+body {
+  margin: 0;
+  
+  font-family: 'Kiwi Maru', serif;
+  color: rgb(156, 13, 175);
+}
+
+.menu {
+  width: 220px;
+  background: rgba(193, 223, 121, 0.425);
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 15px;
+}
+
+.menu a {
+  color: rgba(255, 255, 255, 0.979);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: rgba(209, 209, 209, 0.884);
+}
+
+.main {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(43, 180, 157);
+}
+
+
+ /* 📱 スマホ対応 */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .menu {
+        width: 100%;
+        text-align: center;
+      }
+
+      .menu li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+
+    .container {
+  display: flex;
+  min-height: 100vh;
+}
+.gallery img { max-width: 400px; width: 100%; margin-bottom: 20px; }
+
+
+ 
+  </style>
+<!-- HTML CSS 動画設定 styleに埋め込む -->
+<link rel="stylesheet" href="CSS/裕太.css">
+
+</head>
+
+  <!-- HTML CSS 背景画像はbodyに埋め込む -->
+  <body class="裕太">
+<div class="container">
+
+  <!-- メニュー -->
+  <nav class="menu">
+    <ul>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="CRAZY.html">CRAZY</a></li>
+      <li><a href="Come_over.html">Come over</a></li>
+      <li><a href="1-800-hot-n-fun.html">1-800-hot-n-fun</a></li>
+    </ul>
+  </nav>
+
+  <!-- メイン -->
+  <div class="main">
+
+    <!-- 音楽 -->
+    <audio controls src="audio/Come Over.mp3"></audio>
+
+    <h1>小関裕太</h1>
+
+  
+    <!-- 画像ギャラリー -->
+    <div class="gallery">
+     
+        <a href="./HTML/裕太.html" class="card yuta">
+
+    <img src="image/裕太/202508_24_01.png" alt="">
+  </a>
+    </div>
+
+
+<div class="video-wrapper">
+       <!--　ロングチェウォンのライブチッケム動画の埋め込み　-->
+       <div class="Long-chaewon-live-jik-kaem">
+      <iframe src="https://www.youtube.com/embed/ohjvy6yscnw"></iframe>
+      </div>
+      <!--　ロングチェウォンのダンス動画の埋め込み　-->
+      <div class="Long-chaewon-dance">
+  <iframe src="https://www.youtube.com/embed/cau04MTABRc"></iframe>
+      </div>
+  
+
+    <p>Burn in 2004.11.21</p>
+
+
+</div>
+
+</body>
+
+</html>
