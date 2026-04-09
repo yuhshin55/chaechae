@@ -7,7 +7,15 @@ body {
 h1 {
   font-family: 'Schoolbell', cursive !important;
 }
+h2 {
+  white-space: pre-line;
+  font-size: 15px;
 
+  max-width: 500px;   /* 横幅制限 */
+  margin: 0 auto;     /* 全体を中央に */
+
+  text-align: left;   /* ← ここ重要！！ */
+}
 /*Youtube　埋め込みMVチェウォンライブチッケム♪*/
 .MV-chaewon-jik-kaem {
   position: relative;
@@ -92,3 +100,17 @@ body.IVE::after {
   opacity: 0.3;/* ←ここで透明度調整 */
   z-index: -1;
 }
+
+
+
+/* スマホ対応 */
+@media (max-width: 768px) 
+{
+
+  /* 画像を縦並びにする */
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    /* 文字を横並びにする */
+    flex-wrap: wrap;
+  }}
